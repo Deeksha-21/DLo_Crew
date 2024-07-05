@@ -6,8 +6,7 @@ import AboutPage from './pages/AboutPage';
 import ArticlesListPage from './pages/ArticlesListPage';
 import ArticlePage from './pages/ArticlePage';
 import NotFoundPage from './pages/NotFoundPage';
-import LoginPage from './pages/Loginpage';
-import CreateAccountPage from './pages/CreateAccountPage';
+import Chat from './components/Chat'; // Import the Chat component
 
 function App() {
   return (
@@ -15,13 +14,12 @@ function App() {
       <div className="App">
         <NavBar />
         <div id="page-body">
+          <Chat /> {/* Add the Chat component here */}
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/articles" element={<ArticlesListPage />} />
             <Route path="/articles/:articleId" element={<ArticlePage />} />
-            <Route path="/login" element={<LoginPage />} />
-            <Route path="/create-account" element={<CreateAccountPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>

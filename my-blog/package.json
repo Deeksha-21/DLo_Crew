@@ -4,6 +4,10 @@
   "private": true,
   "proxy": "http://localhost:8000/",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@floating-ui/react": "^0.26.19",
     "@floating-ui/react-dom": "^2.1.1",
     "@testing-library/jest-dom": "^5.16.4",
@@ -11,6 +15,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "firebase": "^10.12.3",
+    "framer-motion": "^11.2.13",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",

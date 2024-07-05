@@ -3,7 +3,7 @@ import { MongoClient } from 'mongodb';
 let db;
 
 async function connectToDb(cb) {
-    const client = new MongoClient(`mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@cluster0.mcmrjad.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`);
+    const client = new MongoClient(`mongodb+srv://rdeeksha21:AiBSmBBF7UuKU2Xe@cluster0.tfvozbp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`);
     await client.connect();
     db = client.db('react-blog-db');
     cb();

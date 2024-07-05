@@ -1,7 +1,7 @@
 const articles = [
     {
         name: 'learn-react',
-        title: 'Understanding Dream Meanings: An Overview',
+        title: 'Connect with People',
         content: [
             `Dreams have fascinated humanity for centuries, offering insights into our subconscious minds. 
             In this article, we explore the basics of dream interpretation and how different cultures have 
@@ -10,14 +10,11 @@ const articles = [
             `Dreams can serve as windows into our inner thoughts and emotions. Whether you dream of flying, 
             falling, or being chased, each dream holds potential clues about your waking life. By paying 
             attention to recurring themes and emotions in your dreams, you can gain a deeper understanding 
-            of yourself.`,
-            `Explore the world of dreams with us as we delve into the symbolism and significance behind 
-            common dream scenarios. From nightmares to lucid dreaming, each type of dream offers unique 
-            insights into the human experience.`,
+            of yourself.`
         ]
     },    {
         name: 'learn-node',
-        title: 'Interpreting Dream Symbols: What Do They Mean?',
+        title: 'Curious to know your future Dreams!!',
         content: [
             `Dreams often speak to us in symbols and metaphors, using imagery to convey deeper meanings 
             and emotions. In this article, we decode some of the most common dream symbols and what 
@@ -26,14 +23,11 @@ const articles = [
             `Understanding dream symbols requires a blend of intuition and cultural knowledge. While some 
             symbols may have universal meanings, others can be highly personal. By keeping a dream journal 
             and reflecting on your dreams over time, you can start to recognize patterns and themes that 
-            provide clarity and guidance.`,
-            `Join us on a journey through the world of dream symbolism as we explore the hidden meanings 
-            behind your nighttime adventures. From ancient myths to modern psychology, discover how dreams 
-            continue to shape our understanding of the human psyche.`,
+            provide clarity and guidance.`
         ]
     },     {
         name: 'mongodb',
-        title: 'Mastering Lucid Dreaming: Taking Control of Your Dreams',
+        title: 'Want to what your dreams me psychologically ',
         content: [
             `Lucid dreaming offers a unique opportunity to consciously interact with your dreams, 
             enabling you to explore new realities and unleash your creativity. In this article, 
